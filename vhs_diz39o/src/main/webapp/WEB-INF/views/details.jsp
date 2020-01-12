@@ -52,7 +52,7 @@
     </tr>
 </table>
 <form action="${pageContext.servletContext.contextPath}/cassettes">
-    <button type="Cassettes"></button>
+    <button type="submit">Cassettes</button>
 </form>
 <form action="${pageContext.servletContext.contextPath}/">
     <button type="submit">BACK</button>

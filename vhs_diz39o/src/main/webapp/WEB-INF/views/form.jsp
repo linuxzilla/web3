@@ -40,12 +40,12 @@
     </form:select>
     <br>
     <form:label path="length">Length</form:label>
-    <form:input type="number" path="length"/>
+    <form:input path="length"/>
     <br>
     <button type="submit">Ok! ADD IT</button>
 </form:form>
 <form action="${pageContext.servletContext.contextPath}/cassettes">
-    <button type="Cassettes"></button>
+    <button type="submit">Cassettes</button>
 </form>
 <form action="${pageContext.servletContext.contextPath}/">
     <button type="submit">BACK</button>
