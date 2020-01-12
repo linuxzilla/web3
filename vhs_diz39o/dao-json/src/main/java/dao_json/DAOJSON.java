@@ -42,7 +42,7 @@ public class DAOJSON {
         return r;
     }
 
-    public void addGame(Cassette cassette) throws IOException, DuplicatedCassette {
+    public void addCassette(Cassette cassette) throws IOException, DuplicatedCassette {
         try
         {
             readCassetteByTitle(cassette.getTitle());

@@ -119,6 +119,6 @@ public class Cassette {
     @Override
     public String toString() {
         return "Games {" + "Title = " + title + ", Director = " + director + ", Publisher = " + publisher +
-                ", Genre = " + genre + ", Type = " + type + ", Length in minute = " + length + ", Release = " + release_date + "}";
+                ", Genre = " + genre + ", Type = " + type + ", Length in minute = " + Integer.toString(length)+ ", Release = " + release_date + "}";
     }
 }
